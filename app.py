@@ -101,3 +101,5 @@ with tab2:
                                 st.write("No document attached")
             except Exception as e:
                 st.error(f"Something went wrong: {e}")
+st.divider()
+st.markdown("<center style='color: gray; font-size: 14px;'>Built by <strong>Palak Ramchandani</strong> · <a href='https://github.com/palakramchandani/bse-tool' target='_blank'>GitHub</a></center>", unsafe_allow_html=True)
